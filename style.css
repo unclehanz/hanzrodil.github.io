@@ -167,11 +167,16 @@ p {
 
 /* EXPERIENCE */
 .timeline-item {
+    position: relative;
+    overflow: hidden;
     background: #161b22;
     border-left: 3px solid #58a6ff;
-    padding: 15px;
+    padding: 20px;
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
 }
+
 
 /* CONTACT */
 .social-links a {
