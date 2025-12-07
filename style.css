@@ -176,6 +176,23 @@ p {
     display: flex;
     align-items: center;
 }
+.timeline-image {
+    position: absolute;
+    right: -160px;              /* Start hidden outside */
+    width: 140px;
+    opacity: 0;
+    transition: all 0.4s ease;
+    pointer-events: none;
+}
+.timeline-item:hover .timeline-image {
+    right: 20px;
+    opacity: 1;
+}
+.timeline-item:hover {
+    border-left-color: #2ea043;
+    background: #1c2128;
+}
+
 
 
 /* CONTACT */
